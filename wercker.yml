@@ -36,6 +36,9 @@ build:
           echo "npm version $(npm -v) running"
 deploy:
   steps:
+    - internal/docker-build:
+        dockerfile: Dockerfile
+        image-name: kfkconsumer-node
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
