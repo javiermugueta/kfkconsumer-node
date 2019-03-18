@@ -42,5 +42,5 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
-        tag: mytag
+        tag: latest
         repository: javiermugueta/kfkconsumer-node
