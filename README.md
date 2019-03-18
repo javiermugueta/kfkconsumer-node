@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/9787f54a07a57046315d7bd3d086b5a8/m/master "wercker status")](https://app.wercker.com/project/byKey/9787f54a07a57046315d7bd3d086b5a8)
+
 # kfkconsumer-node
 
 Consumes messages from a topic in a kafka cluster of brokers
